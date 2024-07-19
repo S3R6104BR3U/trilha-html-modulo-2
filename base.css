@@ -5,34 +5,87 @@ body {
     background-color: #f1f1f1;
     display: flex;
     justify-content: center;
+
 }
 
 .wrapper {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: slateblue;
 }
 .main {
     display: flex;
     flex-flow: column;
-    width: 85%;
+    width: 100%;
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: skyblue;
     padding: 10px 20px 0px;
 }
-.header {
-    background-color: rgb(5, 108, 108);
-    min-height: 150px;
+
+.menu a {
+    text-decoration: none;
 }
+
+li {
+    margin: 15px;
+}
+
+.header {
+    padding: 20px;
+    background-color: royalblue;
+    min-height: 150px;
+    text-align: center;
+}
+
+.logo {
+    height: 100px;
+}
+
+.imagem-autismo {
+    height: 150px;
+    -webkit-box-shadow: -2px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -2px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+.header h2 {
+    text-align: center;
+}
+
 .content {
     background-color: white;
     min-height: 300px;
     padding: 20px;
 }
+
+table {
+    border: 1px solid skyblue;
+    -webkit-box-shadow: -2px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -2px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+table thead th {
+    background-color: black;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: skyblue;
+}
+
+table tbody tr:hover td {
+    background-color: royalblue;
+    color: white;
+    cursor: pointer;
+}
+
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: royalblue;
     min-height: 150px;
+    text-align: center;
 }
